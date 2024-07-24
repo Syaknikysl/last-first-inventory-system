@@ -1,0 +1,164 @@
+/* General reset */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #94D3AC;
+}
+
+/* Login container */
+.login-container {
+    max-width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #F1E5D1;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+    margin-top: 250px;
+    border-color: #45a049;
+}
+
+.login-container h2 {
+    margin-bottom: 20px;
+    color: #A79277;
+}
+
+.login-container input[type="text"],
+.login-container input[type="password"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.login-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.login-container button:hover {
+    background-color: #45a049;
+}
+
+/* Sidebar */
+.sidebar {
+    background-color: #A79277;
+    color: #fff;
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    overflow-y: auto;
+    padding-top: 20px;
+    display: fixed;
+}
+
+.sidebar a {
+    display: block;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.sidebar a:hover {
+    background-color: #555;
+}
+
+/* Content */
+.content {
+    margin-left: 250px;
+    padding: 20px;
+}
+
+.content h2 {
+    color: #333;
+}
+
+.content p {
+    color: #666;
+}
+
+/* Form containers */
+.add-item-container,
+.edit-item-container,
+.delete-item-container {
+    margin-left: 580px;
+    padding: 30px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    background-color:#D1BB9E;
+    width: 560px;
+    
+    
+}
+
+.add-item-container h2,
+.edit-item-container h2,
+.delete-item-container h2 {
+    margin-bottom: 20px;
+   
+}
+
+.add-item-container form,
+.edit-item-container form,
+.delete-item-container {
+ 
+    max-width: 600px;
+    background-color: white;
+    
+    width: 500px;
+    padding: 20px;
+}
+
+.add-item-container input[type="text"],
+.add-item-container textarea,
+.edit-item-container input[type="text"],
+.edit-item-container textarea,
+.delete-item-container input[type="text"],
+.delete-item-container textarea,
+.add-item-container input[type="number"],
+.edit-item-container input[type="number"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    
+}
+
+.add-item-container textarea,
+.edit-item-container textarea,
+.delete-item-container textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+.add-item-container button,
+.edit-item-container button,
+.delete-item-container button {
+    width: 25%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.add-item-container button:hover,
+.edit-item-container button:hover,
+.delete-item-container button:hover {
+    background-color: #45a049;
+}
